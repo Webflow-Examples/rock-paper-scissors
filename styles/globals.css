@@ -148,7 +148,6 @@ body {
 }
 
 .score-card-grid {
-  font-family: system-ui;
   display: grid;
   max-width: 400px;
   margin-right: auto;
