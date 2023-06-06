@@ -1,0 +1,156 @@
+.navbar {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: var(--black-e17c0617);
+  color: var(--white-5b3a3571);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.container.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container.narrow {
+  max-width: 720px;
+}
+
+.brand:focus {
+  outline-color: var(--darkOrange-9b496693);
+  outline-offset: 0.7em;
+  outline-style: solid;
+  outline-width: 0.3em;
+}
+
+.brand:focus-visible {
+  outline-color: var(--darkOrange-9b496693);
+  outline-offset: 0.7em;
+  outline-style: solid;
+  outline-width: 0.3em;
+}
+
+.rps-logo {
+  width: 160px;
+}
+
+@media screen and (max-width: 479px) {
+  .rps-logo {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .nav-menu {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: var(--black-e17c0617);
+  }
+}
+
+.nav-list {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  align-items: center;
+  grid-column-gap: 1em;
+
+  list-style-type: none;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-list {
+    flex-direction: column;
+    grid-row-gap: 1em;
+  }
+}
+
+.nav-link {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: var(--white-5b3a3571);
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  background-color: var(--darkOrchid-209528dc);
+}
+
+.nav-link:focus {
+  outline-color: var(--darkOrchid-209528dc);
+  outline-offset: 0.7em;
+  outline-style: solid;
+  outline-width: 0.3em;
+}
+
+.nav-link:focus-visible {
+  outline-color: var(--darkOrchid-209528dc);
+  outline-offset: 0.7em;
+  outline-style: solid;
+  outline-width: 0.3em;
+}
+
+.nav-link:global(.w--current) {
+  color: var(--white-5b3a3571);
+}
+
+.button-invert--nav {
+  padding: 0.7em 1em 0.6em;
+
+  background-color: var(--darkOrchid-209528dc);
+
+  box-shadow: inset -5px -5px 0 0 rgba(0,0,0,0.2), -5px 0 0 0 var(--white-5b3a3571), 0 -5px 0 0 var(--white-5b3a3571), 5px 0 0 0 var(--white-5b3a3571), 0 5px 0 0 var(--white-5b3a3571);
+
+  transition: box-shadow 200ms ease,background-color 200ms ease,color 200ms ease;
+
+  font-family: 'Press Start 2P';
+  color: #f8f7ff;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.button-invert--nav:hover {
+  background-color: var(--midnightBlue-8c8f2c69);
+  box-shadow: inset -5px -5px 0 0 hsla(0, 0.00%, 100.00%, 0.10), -5px 0 0 0 var(--white-5b3a3571), 0 -5px 0 0 var(--white-5b3a3571), 5px 1px 0 0 var(--white-5b3a3571), 0 5px 0 0 var(--white-5b3a3571);
+  color: hsla(249.11764705882356, 0.00%, 100.00%, 1.00);
+}
+
+.button-invert--nav:focus {
+  outline-color: var(--darkOrchid-209528dc);
+  outline-offset: 0.7rem;
+  outline-style: solid;
+  outline-width: 0.3rem;
+}
+
+.button-invert--nav:focus-visible {
+  outline-color: var(--darkOrchid-209528dc);
+  outline-offset: 0.7rem;
+  outline-style: solid;
+  outline-width: 0.3rem;
+}
+
+.button-invert--nav.nav {
+  padding: 0.7em 1.1em 0.5em;
+}
+
+@media screen and (max-width: 991px) {
+  .menu {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .menu:global(.w--open) {
+    background-color: var(--darkOrchid-209528dc);
+  }
+}

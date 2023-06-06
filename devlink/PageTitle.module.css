@@ -1,0 +1,58 @@
+.section {
+  padding-top: 85px;
+  padding-bottom: 85px;
+  text-align: center;
+}
+
+.section.home {
+  min-height: 600px;
+  background-image: linear-gradient(to bottom, var(--darkOrchid-209528dc), var(--midnightBlue-8c8f2c69));
+  color: var(--white-5b3a3571);
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .section.home {
+    min-height: auto;
+  }
+}
+
+.section.home.page {
+  min-height: auto;
+  text-align: left;
+}
+
+.section.alt {
+  background-color: var(--whiteSmoke-61d42f92);
+}
+
+.section.rules {
+  padding-bottom: 0px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.container.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container.narrow {
+  max-width: 720px;
+}
+
+.page-heading {
+  color: var(--white-5b3a3571);
+}
+
+.page-heading-summary {
+  margin-bottom: 0rem;
+}

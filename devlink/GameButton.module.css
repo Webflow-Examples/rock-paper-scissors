@@ -1,0 +1,39 @@
+.game-button {
+  padding: 1em 1.5em;
+
+  background-color: var(--white-5b3a3571);
+
+  box-shadow: inset -5px -5px 0 0 rgba(0,0,0,0.2), -7px 0 0 0 var(--black-e17c0617), 0 -7px 0 0 var(--black-e17c0617), 7px 0 0 0 var(--black-e17c0617), 0 7px 0 0 var(--black-e17c0617);
+
+  transition: box-shadow 200ms ease,background-color 200ms ease,color 200ms ease;
+
+  font-family: 'Press Start 2P';
+  color: var(--black-e17c0617);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.game-button:hover {
+  background-color: #b9b9b9;
+  box-shadow: inset -5px -5px 0 0 hsla(0, 0.00%, 100.00%, 0.10), -7px 0 0 0 var(--black-e17c0617), 0 -7px 0 0 var(--black-e17c0617), 7px 1px 0 0 var(--black-e17c0617), 0 7px 0 0 var(--black-e17c0617);
+}
+
+.game-button:focus {
+  outline-color: var(--darkOrchid-209528dc);
+  outline-offset: 0.7em;
+  outline-style: solid;
+  outline-width: 0.4em;
+}
+
+.game-button:focus-visible {
+  outline-color: var(--darkOrchid-209528dc);
+  outline-offset: 0.7rem;
+  outline-style: solid;
+  outline-width: 0.4rem;
+}
+
+@media screen and (max-width: 479px) {
+  .game-button {
+    font-size: 1rem;
+  }
+}

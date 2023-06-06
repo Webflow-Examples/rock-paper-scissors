@@ -1,0 +1,30 @@
+.footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-image: linear-gradient(to bottom, var(--darkOrchid-209528dc), var(--midnightBlue-8c8f2c69));
+  color: var(--white-5b3a3571);
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.container.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container.narrow {
+  max-width: 720px;
+}
+
+.footer-link {
+  color: var(--white-5b3a3571);
+}
