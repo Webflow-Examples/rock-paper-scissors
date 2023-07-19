@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2family=Press+Start+2P&family=Source+Sans+3:wght@400;700&display=swap");
+
 .navbar {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -108,11 +110,14 @@
 
   background-color: var(--darkOrchid-209528dc);
 
-  box-shadow: inset -5px -5px 0 0 rgba(0,0,0,0.2), -5px 0 0 0 var(--white-5b3a3571), 0 -5px 0 0 var(--white-5b3a3571), 5px 0 0 0 var(--white-5b3a3571), 0 5px 0 0 var(--white-5b3a3571);
+  box-shadow: inset -5px -5px 0 0 rgba(0, 0, 0, 0.2),
+    -5px 0 0 0 var(--white-5b3a3571), 0 -5px 0 0 var(--white-5b3a3571),
+    5px 0 0 0 var(--white-5b3a3571), 0 5px 0 0 var(--white-5b3a3571);
 
-  transition: box-shadow 200ms ease,background-color 200ms ease,color 200ms ease;
+  transition: box-shadow 200ms ease, background-color 200ms ease,
+    color 200ms ease;
 
-  font-family: 'Press Start 2P';
+  font-family: "Press Start 2P";
   color: #f8f7ff;
   font-size: 1rem;
   font-weight: 400;
@@ -121,8 +126,10 @@
 
 .button-invert--nav:hover {
   background-color: var(--midnightBlue-8c8f2c69);
-  box-shadow: inset -5px -5px 0 0 hsla(0, 0.00%, 100.00%, 0.10), -5px 0 0 0 var(--white-5b3a3571), 0 -5px 0 0 var(--white-5b3a3571), 5px 1px 0 0 var(--white-5b3a3571), 0 5px 0 0 var(--white-5b3a3571);
-  color: hsla(249.11764705882356, 0.00%, 100.00%, 1.00);
+  box-shadow: inset -5px -5px 0 0 hsla(0, 0%, 100%, 0.1),
+    -5px 0 0 0 var(--white-5b3a3571), 0 -5px 0 0 var(--white-5b3a3571),
+    5px 1px 0 0 var(--white-5b3a3571), 0 5px 0 0 var(--white-5b3a3571);
+  color: hsla(249.11764705882356, 0%, 100%, 1);
 }
 
 .button-invert--nav:focus {
