@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2family=Press+Start+2P&family=Source+Sans+3:wght@400;700&display=swap");
+
 .main {
   display: flex;
   flex-direction: column;
@@ -97,7 +99,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
